@@ -1,0 +1,31 @@
+/* src/App.css */
+.app-container {
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px; /* espace entre les cards */
+  padding: 32px;
+}
+
+.alphabet-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  max-width: 90vw;
+  overflow-x: hidden;
+}
